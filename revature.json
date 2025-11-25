@@ -1,0 +1,40 @@
+{
+  "type": "python",
+  "testFiles": [
+    {
+      "path": "src/test/lab_test.py",
+      "testCases": [
+        {
+          "methodName": "test_create_list_positive",
+          "label": "Verify create_list works for positive input",
+          "description": "Checks that create_list(5) returns a sequential list [1, 2, 3, 4, 5]."
+        },
+        {
+          "methodName": "test_create_list_zero",
+          "label": "Verify create_list raises ValueError for zero",
+          "description": "Ensures create_list(0) raises a ValueError with the correct message."
+        },
+        {
+          "methodName": "test_create_list_negative",
+          "label": "Verify create_list raises ValueError for negative input",
+          "description": "Ensures create_list(-5) raises a ValueError with the correct message."
+        },
+        {
+          "methodName": "test_access_list_element",
+          "label": "Verify safe list element access",
+          "description": "Tests access_list_element to return the correct element for valid indexes and 'Invalid index' for out-of-range indexes."
+        },
+        {
+          "methodName": "test_reverse_list",
+          "label": "Verify reverse_list returns a reversed list",
+          "description": "Checks that reversing [1,2,3,4,5] returns [5,4,3,2,1]."
+        },
+        {
+          "methodName": "test_combine_lists",
+          "label": "Verify list concatenation",
+          "description": "Ensures combine_lists returns a new list containing the elements of both lists in order."
+        }
+      ]
+    }
+  ]
+}
